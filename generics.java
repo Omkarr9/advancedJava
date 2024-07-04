@@ -92,6 +92,6 @@ public class generics {
     public <T4> void outputData(T4 data){  // we need to create class object for this method to run since this is a non static method
         System.out.println("I am a public generic method");
         System.out.println(data);
-        // replcae void with T4 if you want to returnt the value
+        // replcae void with T4 if you want to return the value
     }
 }
