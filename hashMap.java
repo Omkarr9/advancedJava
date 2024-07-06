@@ -57,6 +57,19 @@ public class hashMap {
         // to iterate over both key and values simultaneously we can use entrySet as discussed above
 
         // time complexity of HashMap is O(1)
+
+        Map<String, Integer> hMap = new HashMap<>();
+
+        hMap.put("omkar", 2);
+        hMap.put("john", 56);
+        hMap.put("cena", 45);
+        hMap.put("punk", 76);
+
+
+        // getOrDefault() method takes a key and if that key is not present then it will return default value which will be set by the user
+        System.out.println(hMap.getOrDefault("sfdsf", 384893489)); // getOrDefault() method takes a key and if that key is not present then it will return default value which will be set by the user
+        System.out.println(hMap.getOrDefault("omkar", 35343)); // since the key "omkar is present, it will return 2 which was originally set by the user
+        // getOrDefault is usually used to avoid getting an exception when the key is not present inside the HashMap
         
 
     }
