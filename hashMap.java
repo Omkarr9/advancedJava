@@ -4,6 +4,9 @@ public class hashMap {
     public static void main(String args[]){
         Map<String, Integer> numbers = new HashMap<>();
 
+        // The HashMap (or Map) is not collection and the Map interface does not extends the Collections Interface
+        // but there are different ways through which the Map can be viewed as a collection (key-set, entry set etc)
+
         numbers.put("omkar", 56);  // "omkar" is key and 56 is its value
         numbers.put("anurag", 57); // "anurag" is key and 57 is its value
         numbers.put("sudeep", 58); // "sudeep" is key and 58 is its value
